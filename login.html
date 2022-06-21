@@ -12,27 +12,30 @@
 </head>
 <body>
     <main class="flex-box">
-        <section class="container">
-            <div class="login-container">
-                <h3 class="font-con">Fiber</h3>
-                <h1 class="font-con">Create your Fiber account</h1>
-                <form class="form" action="" method="post">
-                    <label for="username">Your Name:</label>
-                    <input type="text" name="username" id="username" placeholder="John Doe">
-                    <label for="email">E-mail</label>
-                    <input type="text" name="email" id="email" placeholder="john@example.com">
-                    <label for="password">Password:</label>
-                    <input type="password" name="password" id="password" placeholder="At least 8 characters">
-                    <input type="checkbox" id="checkbox" name="checkbox" value="Bike">
-                    <label for="checkbox">By creating an account on Fiber, you agree to the <a>Terms & Conditions</a>.</label><br>
-                    <input type="submit" value="Create Fiber Account">
-                    <p>Already have an account? </p><a>Sign in </a>
-                </form>
-            </div>
-            <div class="background-container">
-                <img class="img-signup"src="Assets/Sign Up Image.png" alt="">
-            </div>
-        </section>
+        <div class="login-container">
+            <h4 class="font-con">Fiber</h3>
+            <h2 class="font-con">Create your Fiber account</h1>
+            <form class="form" action="" method="post">
+                <label for="username">Your Name:</label>
+                <input type="text" name="username" id="username" placeholder="John Doe">
+                <label for="email">E-mail</label>
+                <input type="text" name="email" id="email" placeholder="john@example.com">
+                <label for="password">Password:</label>
+                <input type="password" name="password" id="password" placeholder="At least 8 characters">
+                <div class="inline">
+                    <input type="checkbox" name="checkbox" value="agree">
+                    <label for="checkbox">By creating an account on Fiber, you agree to the <a style="color: rgb(88, 8, 216); text-decoration:underline; font-weight: bold;">Terms & Conditions</a>.</label>
+                </div>
+                <a href="link create" class="create-button">Create Fiber Account</a>
+                <p>Already have an account? <a style="color: rgb(88, 8, 216); text-decoration:underline;"> Sign in </a></p>
+            </form>
+        </div>
+        <div class="background-container">
+            <img class="img-signup"src="Assets/Sign Up Image.png" alt="">
+            <p style="font-size: 20px; font-weight: bold; 
+            margin-top: 30px;">Unparallelled Templates</p>
+            <p style="width: 75%; font-size: small; font-weight: 300; line-height: 1.5;">Crafted by a team of professional designers, our templates are eunparallelled in the market</p>
+        </div>
     </main>
 </body>
 </html>
