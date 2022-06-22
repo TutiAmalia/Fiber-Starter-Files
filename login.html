@@ -21,20 +21,32 @@
                 <label for="email">E-mail</label>
                 <input type="text" name="email" id="email" placeholder="john@example.com">
                 <label for="password">Password:</label>
-                <input type="password" name="password" id="password" placeholder="At least 8 characters">
+                <div class="password">
+                    <input type="password" name="password" id="password" placeholder="At least 8 characters">
+                    <svg class="hide-pass" width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M15 12C15 13.654 13.654 15 12 15C10.346 15 9 13.654 9 12C9 10.346 10.346 9 12 9C13.654 9 15 10.346 15 12ZM24 11.551C24 11.551 19.748 20 12.015 20C4.835 20 0 11.551 0 11.551C0 11.551 4.446 4 12.015 4C19.709 4 24 11.551 24 11.551ZM17 12C17 9.243 14.757 7 12 7C9.243 7 7 9.243 7 12C7 14.757 9.243 17 12 17C14.757 17 17 14.757 17 12Z" fill="#A9A9A9"/>
+                </svg>
+                </div>
                 <div class="inline">
                     <input type="checkbox" name="checkbox" value="agree">
                     <label for="checkbox">By creating an account on Fiber, you agree to the <a style="color: rgb(88, 8, 216); text-decoration:underline; font-weight: bold;">Terms & Conditions</a>.</label>
                 </div>
                 <a href="link create" class="create-button">Create Fiber Account</a>
-                <p>Already have an account? <a style="color: rgb(88, 8, 216); text-decoration:underline;"> Sign in </a></p>
+                <p>Already have an account? <a style="color: rgb(88, 8, 216); text-decoration:underline; text-decoration: none;"> Sign in </a></p>
             </form>
         </div>
         <div class="background-container">
             <img class="img-signup"src="Assets/Sign Up Image.png" alt="">
             <p style="font-size: 20px; font-weight: bold; 
-            margin-top: 30px;">Unparallelled Templates</p>
-            <p style="width: 75%; font-size: small; font-weight: 300; line-height: 1.5;">Crafted by a team of professional designers, our templates are eunparallelled in the market</p>
+            margin-top: 30px; letter-spacing: 1px;">Unparallelled Templates</p>
+            <p style="width: 75%; font-size: small; font-weight: 300; line-height: 1.5; letter-spacing: 0.5px;">Crafted by a team of professional designers, our templates are eunparallelled in the market</p>
+            <div style="display: inline-flex; gap:5px">
+                <div class="point"></div>
+                <div class="point" style="background-color: rgba(255, 255, 255, 0.534);"></div>
+                <div class="point" style="background-color: rgba(255, 255, 255, 0.534);"></div>
+                <div class="point" style="background-color: rgba(255, 255, 255, 0.534);"></div>
+            </div>
+            
         </div>
     </main>
 </body>

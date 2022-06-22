@@ -38,6 +38,7 @@ body{
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    box-shadow: inset 0 0 6em rgba(0,0,0,0.5), 0 0  0 1em rgb(255,255,255);
 }
 .img-signup{
     width: auto;
@@ -71,6 +72,17 @@ body{
     border-radius: 3px;
 }
 
+.password{
+    position: relative;
+    display: flex;
+    justify-content: flex-end;
+}
+.password .hide-pass{
+    position: absolute;
+    top: 8px;
+    right: 7px;
+}
+
 .inline{
     display:inline-flex;
     /* justify-content: center; */
@@ -79,6 +91,7 @@ body{
     line-height: 1.4;
     padding-bottom: 15px;
     font-size: small;
+    gap: 5px;
     /* padding-left: 0px; */
 }
 
@@ -110,4 +123,12 @@ body{
     font-weight: 500; 
     font-size: small;
     text-align: center;
+}
+
+.point{
+    width: 10px;
+    height: 10px;
+    background-color: white;
+    border-radius: 50%;
+    margin-top: 20px;
 }
