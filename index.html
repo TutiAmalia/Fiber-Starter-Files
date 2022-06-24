@@ -15,14 +15,14 @@
             <div class="header-logo">Fiber</div>
             <nav>
                 <ul id="header-nav">
-                    <li>Community</li>
-                    <li>Pricing</li>
-                    <li>Features</li>
+                    <li><a style="text-decoration: none; color: rgb(68, 67, 67);" href="">Community</a></li>
+                    <li><a style="text-decoration: none; color: rgb(68, 67, 67);" href="">Pricing</a></li>
+                    <li><a style="text-decoration: none; color: rgb(68, 67, 67);" href="">Features</a></li>
                 </ul>
             </nav>
             <div style="display:flex; align-items:center; gap:40px">
-                <div style="font-weight: bold;">Sign In</div>
-                <div class="sign-up">Sign Up</div>
+                <div style="font-weight: bold;"><a style="text-decoration: none;" href="">Sign In</a></div>
+                <div class="sign-up"><a style="color: white; text-decoration: none;" href="">Sign Up</a></div>
             </div>
         </header>
         <main class="main-section flex-box boxed-layout">
@@ -50,7 +50,7 @@
                 <h1 style="margin: 0px; line-height: 1.2; font-size: 50px; ">Create your portfolio in minutes.</h1>
                 <p style="margin:5px; line-height: 1.5; color: gray;">With Fiber, you can setup your own personal portfolio in minutes with dozens of premade, beautiful templates.</p>
                 <div style="display: inline-flex; align-items: center; gap: 30px;">
-                    <p style="width: 150px; height: auto; color: white; background-color: #4d13d1; text-align: center; padding:20px 13px; border-radius: 5px;">Start Free Trial</p>
+                    <a style="width: 150px; height: auto; color: white; background-color: #4d13d1; text-align: center; padding:20px 13px; border-radius: 5px; text-decoration: none;" href="">Start Free Trial</a>
                     <a style="font-weight: bold; color: #4d13d1;" href="">View Examples</a>
                 </div>
                 <div style="display: inline-flex; align-items: center; gap: 10px;">
@@ -101,8 +101,8 @@
                 <!-- </div> -->  
             </div>
         </div>
-        <div style="display: grid; grid-template-columns: repeat(3,1fr); column-gap: 30px; margin-top: 50px; margin-left: 100px; ">
-            <div style="border: solid 2px; border-color: rgba(221, 220, 220, 0.808); border-radius: 5px; padding: 25px; max-width: 350px;">
+        <div class="boxed-layout" style="display: grid; grid-template-columns: repeat(3,1fr); column-gap: 30px; margin-top: 50px;">
+            <div style="border: solid 2px; border-color: rgba(221, 220, 220, 0.808); border-radius: 5px; padding: 25px; max-width: 350px; display: flex; flex-direction: column; gap: 12px; justify-content: space-between;">
                 <div style="display: flex;">
                     <img src="Assets/User Avatar.svg" alt="">
                     <div style="padding-left: 10px;">
@@ -113,7 +113,7 @@
                 <p style="line-height: 1.5; margin-bottom: 20px;">Setting up my portfolio with Fiber took no more than 10 minutes. Since then, my portfolio has attracted a lot of clients and made me more than $100k</p>
                 <a style="display:flex; border: solid 1.5px; border-radius: 5px; border-color: rgba(221, 220, 220, 0.808);padding: 20px 0px; text-decoration: none; font-weight: bold; justify-content: center;" href="">View Sarah's Portfolio</a>
             </div>
-            <div style="border: solid 2px; border-color: rgba(221, 220, 220, 0.808); border-radius: 5px; padding: 25px; max-width: 350px;">
+            <div style="border: solid 2px; border-color: rgba(221, 220, 220, 0.808); border-radius: 5px; padding: 25px; max-width: 350px; display: flex; flex-direction: column; gap: 12px; justify-content: space-between;">
                 <div style="display: flex;">
                     <img src="Assets/User Avatar 2.svg" alt="">
                     <div style="padding-left: 10px;">
@@ -124,7 +124,7 @@
                 <p style="line-height: 1.5; margin-bottom: 20px;">I have been getting A LOT of leads ever since I used Fiber's premade templates, now I just need to work on my case studies and I'll be ready to go!</p>
                 <a style="display:flex; border: solid 1.5px; border-radius: 5px; border-color: rgba(221, 220, 220, 0.808);padding: 20px 0px; text-decoration: none; font-weight: bold; justify-content: center;" href="">View Mathew's Portfolio</a>
             </div>
-            <div style="border: solid 2px; border-color: rgba(221, 220, 220, 0.808); border-radius: 5px; padding: 25px; max-width: 350px;">
+            <div style="border: solid 2px; border-color: rgba(221, 220, 220, 0.808); border-radius: 5px; padding: 25px; max-width: 350px; display: flex; flex-direction: column; gap: 12px; justify-content: space-between;">
                 <div style="display: flex;">
                     <img src="Assets/User Avatar 32.svg" alt="">
                     <div style="padding-left: 10px;">
@@ -137,31 +137,39 @@
             </div>
         </div>
     </article>
-    <footer>
-        <div class="boxed-layout main-section" style="display: flex; padding-top: 35px; padding-bottom: 30px;">
-            <div style="max-width: 40%; margin: auto;">
+    <footer class="main-section">
+        <div class="boxed-layout" style="display: flex; padding-top: 35px; padding-bottom: 30px;">
+            <div style="max-width: 40%;">
                 <h3>Fiber</h3>
                 <p style="color:gray">With Fiber, you can setup your own personal portfolio in minutes with dozens of premade, beautiful templates.</p>
                 <p style="color:gray">Made with 🖤 in the Netherlands.</p>
             </div>
-            <div style="max-width: 60%; display: grid; grid-template-columns: repeat(4,1fr); column-gap: 20px; margin-top: 25px; margin-bottom: 15px;">
-                <a style="color: black; font-weight: bold; text-decoration: none;" href="">Sitemap</a>
-                <a style="color: black; font-weight: bold; text-decoration: none;" href="">Resources</a>
-                <a style="color: black; font-weight: bold; text-decoration: none;" href="">Company</a>
-                <a style="color: black; font-weight: bold; text-decoration: none;" href="">Portfolio</a>
-                <a style="color: gray; text-decoration: none;" href="">Homepage</a>
-                <a style="color: gray; text-decoration: none;" href="">Support</a>
-                <a style="color: gray; text-decoration: none;" href="">About</a>
-                <a style="color: gray; text-decoration: none;" href="">Sarah Andrews</a>
-                <a style="color: gray; text-decoration: none;" href="">Pricing</a>
-                <a style="color: gray; text-decoration: none;" href="">Contact</a>
-                <a style="color: gray; text-decoration: none;" href="">Customers</a>
-                <a style="color: gray; text-decoration: none;" href="">Mathew Higgins</a>
-                <a style="color: gray; text-decoration: none;" href="">Testimonials</a>
-                <a style="color: gray; text-decoration: none;" href="">FAQ</a>
-                <a style="color: gray; text-decoration: none;" href="">Blog</a>
-                <a style="color: gray; text-decoration: none;" href="">Janice Dave</a>
-                <a style="color: gray; text-decoration: none;" href="">Features</a>
+            <div style="max-width: 60%; display: grid; grid-template-columns: repeat(4,1fr); margin-top: -15px;">
+                <ul style="list-style-type: none; padding-left: 15px; display: flex; flex-direction: column; gap: 5px;">
+                    <p style="color: black; font-weight: bold;">Sitemap</p>
+                    <li><a style="color: gray; text-decoration: none; padding-bottom: 10px;" href="">Homepage</a></li>
+                    <li><a style="color: gray; text-decoration: none;" href="">Pricing</a></li>
+                    <li><a style="color: gray; text-decoration: none;" href="">Testimonials</a></li>
+                    <li><a style="color: gray; text-decoration: none;" href="">Features</a></li>
+                </ul>
+                <ul style="list-style-type: none; padding-left: 15px; display: flex; flex-direction: column; gap: 5px;">
+                    <p style="color: black; font-weight: bold;">Resources</p>
+                    <li><a style="color: gray; text-decoration: none;" href="">Support</a></li>
+                    <li><a style="color: gray; text-decoration: none;" href="">Contact</a></li>
+                    <li><a style="color: gray; text-decoration: none;" href="">FAQ</a></li>
+                </ul>
+                <ul style="list-style-type: none; padding-left: 15px; display: flex; flex-direction: column; gap: 5px;">
+                    <p style="color: black; font-weight: bold;">Company</p>
+                    <li><a style="color: gray; text-decoration: none;" href="">About</a></li>
+                    <li><a style="color: gray; text-decoration: none;" href="">Customers</a></li>
+                    <a style="color: gray; text-decoration: none;" href="">Blog</a>
+                </ul>
+                <ul style="list-style-type: none; padding-left: 15px; display: flex; flex-direction: column; gap: 5px;">
+                    <p style="color: black; font-weight: bold;">Portfolio</p>
+                    <li><a style="color: gray; text-decoration: none;" href="">Sarah Andrews</a></li>
+                    <li><a style="color: gray; text-decoration: none;" href="">Mathew Higgins</a></li>
+                    <li><a style="color: gray; text-decoration: none;" href="">Janice Dave</a></li>
+                </ul>  
             </div>
         </div>
 
